@@ -163,7 +163,10 @@ body {
 }
 
 .msg-txt {
-  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
   margin-bottom: 10rem;
   text-transform: uppercase;
 }
@@ -181,5 +184,5 @@ body {
 }
 
 .show {
-  display:flex !important;
+  display: flex !important;
 }
